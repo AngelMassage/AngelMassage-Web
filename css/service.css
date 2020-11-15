@@ -1,0 +1,82 @@
+
+
+@media only screen and (max-width: 576px) {
+    .servicetext{
+        font-size: .5em;
+    }
+    #read
+    {
+        text-decoration: underline;
+        color: #118C79;
+        font-weight: 600;
+    }
+    #read2
+    {
+        text-decoration: underline;
+        color: #118C79;
+        font-weight: 600;
+    }
+    .service-title {
+        font-size: 1em!important;
+    }
+    .message-title {
+        font-size: 0.5em!important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+    .servicetext{
+        font-size: .5em;
+        margin: 5%;
+    }
+    #read
+    {
+        text-decoration: underline;
+        color: #118C79;
+        font-weight: 600;
+    }
+    #read2
+    {
+        text-decoration: underline;
+        color: #118C79;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .servicetext{
+        font-size: .8em;
+        margin: 5%;
+    }
+    #more-text
+    {
+        display: block;
+    }
+    #read
+    {
+        display: none;
+    }
+    #read2
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .servicetext{
+        font-size: .8em;
+        margin: 5%;
+    }
+    #more-text
+    {
+        display: block;
+    }
+    #read
+    {
+        display: none;
+    }
+    #read2
+    {
+        display: none;
+    }
+}
