@@ -1,0 +1,299 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+.container-fluid, .row {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:"Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:"Roboto-Acumin";
+    src: url(../fonts/AcuminVariableConcept.otf);
+}
+
+.acumin-font {
+    font-family: "Roboto-Acumin";
+}
+#title {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.p-light{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+}
+.homehr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: .1px solid black;
+    margin: 1em 0;
+}
+.footerhr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: .1px solid #eeeeee;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.scene-1 {
+    background: url('../images/Home_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.scene-2 {
+    background: url('../images/Home_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.scene-3 {
+    background: url('../images/Home_03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.scene-4 {
+    background: url('../images/Home_04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.contact-scene1{
+    background: url('../images/Contact_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.contact-scene2{
+    background: url('../images/Contact_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
+    font-family: "Roboto-Regular";
+    margin:0;
+    border:0;
+    outline:0;
+    font-size: 120%;
+    background: #807461;
+}
+
+.toptext{
+    padding-top: 1vw;
+    color: white;
+    font-size: .7em;
+}
+
+.navbar {
+    width: 100vw;
+    z-index: 999;
+}
+
+.navbar-brand {
+    height: 10vh;
+    vertical-align: middle;
+}
+
+.navbar-brand img {
+    height: inherit;
+
+}
+
+/*navbar animation*/
+.nav-link{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: black!important;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+.nav-link::after{
+    transition: 200ms;
+    height: 0.5em;
+    content:"";
+    background-color: #118C79;
+    display: block;
+}
+.nav-link-fade-up::after{
+    bottom: -150px;
+    opacity: 0;
+}
+
+.nav-link-fade-up:hover::after{
+    bottom: -50px;
+    opacity: 1;
+}
+/*navbar animation end*/
+.aboutpic{
+    margin-top: 1vh;
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
+    background: url('../images/Home_00.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.otherpic{
+    margin-top: 1vh;
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-titles{
+    font-size: 1.5em;
+}
+.aboutservice{
+    padding: 5vw 5vw 2vw 5vw;
+}
+
+.abouticontext{
+    padding-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    line-height: 1.2rem;
+    letter-spacing: 0.12rem;
+    color: black;
+    font-weight: 500;
+}
+.homebutton{
+    background-color: #118C79;
+    color: white;
+    text-align: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1em;
+}
+.underline{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+/*Footer*/
+.footericons{
+    height: 2vw;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-font{
+        color: white;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    .abouticon{
+        width: 15vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4em;
+        padding-bottom: 0.2em!important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+    .footer-font{
+        color: white;
+        font-size: 2em;
+    }
+    .abouticon{
+        width: 20vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .footer-font{
+        color: white;
+        font-size: 2em;
+    }
+    .abouticon{
+        width: 10vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-font{
+        color: white;
+    }
+    .abouticon{
+        width: 10vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
